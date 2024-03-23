@@ -86,3 +86,12 @@ flutter:
           weight: 200
         - asset: assets/fonts/inter/Inter-Thin.ttf
           weight: 100
+
+    - family: CustomIcons
+      fonts:
+        - asset: assets\custom_icons\fonts\CustomIcons.ttf
+          
+
+
+          
+              

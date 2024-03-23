@@ -1,6 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:awesome_bottom_bar/awesome_bottom_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:test_app_wiggli/core/config/env/custom_icons.dart';
 
 import 'routes/app_router.gr.dart';
 
@@ -23,19 +24,19 @@ class MainPage extends StatelessWidget {
           child: BottomBarInspiredFancy(
             items: const [
               TabItem(
-                icon: Icons.home,
+                icon: CustomIcons.home,
                 title: 'Home',
               ),
               TabItem(
-                icon: Icons.favorite,
+                icon: CustomIcons.favorite,
                 title: 'Favourites',
               ),
               TabItem(
-                icon: Icons.notifications,
+                icon: CustomIcons.notification,
                 title: 'Notifications',
               ),
               TabItem(
-                icon: Icons.person,
+                icon: CustomIcons.profile,
                 title: 'Profile',
               ),
             ],
